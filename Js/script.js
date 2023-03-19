@@ -9,7 +9,6 @@ function getFraseAleatoria() {
 
 async function renderProximaFrase() {
     const word = getFraseAleatoria()
-    console.log(word) 
     fraseDisplayElement.innerText = word
 }
 
